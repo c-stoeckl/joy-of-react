@@ -21,8 +21,6 @@ function Game() {
       };
       return [...prevGuesses, nextGuess];
     });
-
-    console.log({ guesses });
   }
 
   return (
